@@ -15,6 +15,11 @@
 		D5BB842F1C2BE86800C3C789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BB842D1C2BE86800C3C789 /* LaunchScreen.storyboard */; };
 		D5BB843A1C2BE86900C3C789 /* _0151224003_UITableViewController_QQFriendsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB84391C2BE86900C3C789 /* _0151224003_UITableViewController_QQFriendsListTests.m */; };
 		D5BB84451C2BE86900C3C789 /* _0151224003_UITableViewController_QQFriendsListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB84441C2BE86900C3C789 /* _0151224003_UITableViewController_QQFriendsListUITests.m */; };
+		D5BB84531C2BE8FD00C3C789 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5BB84521C2BE8FD00C3C789 /* friends.plist */; };
+		D5BB84561C2BEA2A00C3C789 /* FriendsGoupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB84551C2BEA2A00C3C789 /* FriendsGoupModel.m */; };
+		D5BB84591C2BEA4200C3C789 /* FriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB84581C2BEA4200C3C789 /* FriendModel.m */; };
+		D5BB845C1C2BF9D000C3C789 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB845B1C2BF9D000C3C789 /* NSArray+Log.m */; };
+		D5BB84651C2CE60F00C3C789 /* FriendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BB84641C2CE60F00C3C789 /* FriendHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		D5BB84401C2BE86900C3C789 /* 20151224003-UITableViewController-QQFriendsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151224003-UITableViewController-QQFriendsListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BB84441C2BE86900C3C789 /* _0151224003_UITableViewController_QQFriendsListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151224003_UITableViewController_QQFriendsListUITests.m; sourceTree = "<group>"; };
 		D5BB84461C2BE86900C3C789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BB84521C2BE8FD00C3C789 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		D5BB84541C2BEA2A00C3C789 /* FriendsGoupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsGoupModel.h; sourceTree = "<group>"; };
+		D5BB84551C2BEA2A00C3C789 /* FriendsGoupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsGoupModel.m; sourceTree = "<group>"; };
+		D5BB84571C2BEA4200C3C789 /* FriendModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendModel.h; sourceTree = "<group>"; };
+		D5BB84581C2BEA4200C3C789 /* FriendModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendModel.m; sourceTree = "<group>"; };
+		D5BB845A1C2BF9D000C3C789 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		D5BB845B1C2BF9D000C3C789 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
+		D5BB84631C2CE60F00C3C789 /* FriendHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendHeaderView.h; sourceTree = "<group>"; };
+		D5BB84641C2CE60F00C3C789 /* FriendHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +115,7 @@
 		D5BB841E1C2BE86800C3C789 /* 20151224003-UITableViewController-QQFriendsList */ = {
 			isa = PBXGroup;
 			children = (
-				D5BB84221C2BE86800C3C789 /* AppDelegate.h */,
-				D5BB84231C2BE86800C3C789 /* AppDelegate.m */,
-				D5BB84251C2BE86800C3C789 /* ViewController.h */,
-				D5BB84261C2BE86800C3C789 /* ViewController.m */,
-				D5BB84281C2BE86800C3C789 /* Main.storyboard */,
-				D5BB842B1C2BE86800C3C789 /* Assets.xcassets */,
-				D5BB842D1C2BE86800C3C789 /* LaunchScreen.storyboard */,
-				D5BB84301C2BE86800C3C789 /* Info.plist */,
+				D5BB84611C2CE5AA00C3C789 /* Classes */,
 				D5BB841F1C2BE86800C3C789 /* Supporting Files */,
 			);
 			path = "20151224003-UITableViewController-QQFriendsList";
@@ -117,6 +124,11 @@
 		D5BB841F1C2BE86800C3C789 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5BB84281C2BE86800C3C789 /* Main.storyboard */,
+				D5BB842B1C2BE86800C3C789 /* Assets.xcassets */,
+				D5BB842D1C2BE86800C3C789 /* LaunchScreen.storyboard */,
+				D5BB84301C2BE86800C3C789 /* Info.plist */,
+				D5BB84521C2BE8FD00C3C789 /* friends.plist */,
 				D5BB84201C2BE86800C3C789 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +150,65 @@
 				D5BB84461C2BE86900C3C789 /* Info.plist */,
 			);
 			path = "20151224003-UITableViewController-QQFriendsListUITests";
+			sourceTree = "<group>";
+		};
+		D5BB845D1C2CE55300C3C789 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB84541C2BEA2A00C3C789 /* FriendsGoupModel.h */,
+				D5BB84551C2BEA2A00C3C789 /* FriendsGoupModel.m */,
+				D5BB84571C2BEA4200C3C789 /* FriendModel.h */,
+				D5BB84581C2BEA4200C3C789 /* FriendModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D5BB845E1C2CE56300C3C789 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB84251C2BE86800C3C789 /* ViewController.h */,
+				D5BB84261C2BE86800C3C789 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D5BB845F1C2CE57500C3C789 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB845A1C2BF9D000C3C789 /* NSArray+Log.h */,
+				D5BB845B1C2BF9D000C3C789 /* NSArray+Log.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		D5BB84601C2CE59000C3C789 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB84221C2BE86800C3C789 /* AppDelegate.h */,
+				D5BB84231C2BE86800C3C789 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		D5BB84611C2CE5AA00C3C789 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB84621C2CE5C000C3C789 /* Views */,
+				D5BB84601C2CE59000C3C789 /* Others */,
+				D5BB845E1C2CE56300C3C789 /* Controllers */,
+				D5BB845D1C2CE55300C3C789 /* Models */,
+				D5BB845F1C2CE57500C3C789 /* Utils */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D5BB84621C2CE5C000C3C789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5BB84631C2CE60F00C3C789 /* FriendHeaderView.h */,
+				D5BB84641C2CE60F00C3C789 /* FriendHeaderView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +316,7 @@
 			files = (
 				D5BB842F1C2BE86800C3C789 /* LaunchScreen.storyboard in Resources */,
 				D5BB842C1C2BE86800C3C789 /* Assets.xcassets in Resources */,
+				D5BB84531C2BE8FD00C3C789 /* friends.plist in Resources */,
 				D5BB842A1C2BE86800C3C789 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +342,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BB84591C2BEA4200C3C789 /* FriendModel.m in Sources */,
+				D5BB84561C2BEA2A00C3C789 /* FriendsGoupModel.m in Sources */,
+				D5BB84651C2CE60F00C3C789 /* FriendHeaderView.m in Sources */,
 				D5BB84271C2BE86800C3C789 /* ViewController.m in Sources */,
+				D5BB845C1C2BF9D000C3C789 /* NSArray+Log.m in Sources */,
 				D5BB84241C2BE86800C3C789 /* AppDelegate.m in Sources */,
 				D5BB84211C2BE86800C3C789 /* main.m in Sources */,
 			);
